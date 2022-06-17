@@ -1,5 +1,5 @@
-import navigation from "./src/navigation/navigation"
+import App from "./src/app"
 import { registerRootComponent } from "expo"
 
-registerRootComponent(navigation)
-export default navigation
+registerRootComponent(App)
+export default App

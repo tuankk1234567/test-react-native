@@ -8,6 +8,9 @@ import Test3Screen from "../screen/test2";
 import {MyTabs} from "../navigation/bottomTab"
 import { AntDesign, Ionicons, MaterialCommunityIcons } from "@expo/vector-icons"
 
+
+
+
 export default function Navigator() {
   const Stack = createNativeStackNavigator();
 
@@ -15,6 +18,7 @@ export default function Navigator() {
  
 
   return (
+    
     <NavigationContainer>
       <Stack.Navigator       
       screenOptions={{
